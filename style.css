@@ -1,0 +1,36 @@
+body, html {
+    display: grid;                                                                                                                                                                                                        
+    width: 70%;
+    height: 70%
+    padding: 0;
+    margin: 0;
+    grid-template-rows: 1fr .55fr .20fr;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+
+}
+
+.HELLO {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    background-color: salmon;
+}
+
+.my-name {
+    font-size: 3rem;
+    color: black;
+    background-color:salmon;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-style: italic ;
+    margin-top: 15px;
+}
+
+footer {
+    color: salmon;
+    background-color: salmon;
+}
