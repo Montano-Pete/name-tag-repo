@@ -1,10 +1,10 @@
 body, html {
     display: grid;                                                                                                                                                                                                        
-    width: 70%;
-    height: 70%
+    width: 50%;
+    height: 60%;
     padding: 0;
     margin: 0;
-    grid-template-rows: 1fr .55fr .20fr;
+    grid-template-rows: .55fr .55fr .20fr;
     text-align: center;
     border-style: solid;
     border-color: white;
@@ -16,6 +16,7 @@ body, html {
     font-weight: bold;
     color: white;
     background-color: salmon;
+    border-radius: 10px;
 }
 
 .my-name {
@@ -25,12 +26,22 @@ body, html {
 }
 
 .name {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-style: italic ;
-    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px
 }
 
 footer {
     color: salmon;
     background-color: salmon;
+    border-radius: 0px 0px 10px 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
 }
